@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--    Add Teachers-->
+
+    <EditText
+        android:id="@+id/editTextTeacher"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="115dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:hint="Enter Teacher Name"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/buttonAddTeachers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Add Teacher" />
+
+    <!--    Add Courses-->
+
+    <EditText
+        android:id="@+id/editTextCourse"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="109dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:hint="Enter Course name"
+        android:inputType="text" />
+
+
+    <Button
+        android:id="@+id/buttonAddCourses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginRight="100dp"
+        android:text="Add Courses" />
+
+    <!--    Add Rooms-->
+
+    <EditText
+        android:id="@+id/editTextRoom"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="257dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:hint="Enter Room name"
+        android:inputType="text" />
+
+    <!--    Add Slots-->
+
+    <Button
+        android:id="@+id/buttonAddRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="423dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Add Room" />
+
+    <EditText
+        android:id="@+id/editTextSlot"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="373dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:ems="10"
+        android:hint="Enter Slot name"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddSlot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="Add Slot" />
+</RelativeLayout>
