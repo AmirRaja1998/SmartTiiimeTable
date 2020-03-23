@@ -71,14 +71,8 @@
         android:id="@+id/editTextRoom"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="257dp"
-        android:layout_marginEnd="112dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_below="@id/buttonAddSlot"
         android:ems="10"
         android:hint="Enter Room name"
         android:inputType="" />
@@ -87,39 +81,27 @@
 
     <Button
         android:id="@+id/buttonAddRoom"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="423dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_below="@id/editTextRoom"
+        android:layout_centerHorizontal="true"
         android:text="Add Room" />
 
     <EditText
         android:id="@+id/editTextSlot"
         android:layout_width="192dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="373dp"
-        android:layout_marginEnd="107dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_below="@id/buttonAddCourses"
         android:ems="10"
         android:hint="Enter Slot name"
         android:inputType="text" />
 
     <Button
         android:id="@+id/buttonAddSlot"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="311dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_below="@id/editTextSlot"
+        android:layout_centerHorizontal="true"
         android:text="Add Slot" />
 </RelativeLayout>
