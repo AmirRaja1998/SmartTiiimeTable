@@ -1,4 +1,4 @@
-package com.crissalex.smarttimetable;
+package com.crissalex.smarttimetable.model;
 
 public class Rooms {
     String RoomId;
