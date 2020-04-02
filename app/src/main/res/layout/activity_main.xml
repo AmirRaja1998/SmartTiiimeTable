@@ -21,7 +21,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="100dp"
         android:ems="10"
-        android:hint="Enter Teacher Name"
+        android:hint="@string/TextTeacher"
         android:inputType="textPersonName" />
 
 
@@ -34,7 +34,7 @@
         android:layout_marginTop="65dp"
         android:layout_marginRight="100dp"
         android:layout_marginBottom="100dp"
-        android:text="Add Teacher" />
+        android:text="@string/Teacher" />
 
     <!--    Add Courses-->
 
@@ -51,7 +51,7 @@
         android:layout_marginRight="100dp"
         android:layout_marginBottom="100dp"
         android:ems="10"
-        android:hint="Enter Course name"
+        android:hint="@string/TextCourse"
         android:inputType="text" />
 
 
@@ -63,7 +63,7 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="192dp"
         android:layout_marginRight="100dp"
-        android:text="Add Courses" />
+        android:text="@string/Course" />
 
     <!--    Add Rooms-->
 
@@ -74,10 +74,9 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/buttonAddSlot"
         android:ems="10"
-        android:hint="Enter Room name"
+        android:hint="@string/TextRoom"
         android:inputType="" />
 
-    <!--    Add Slots-->
 
     <Button
         android:id="@+id/buttonAddRoom"
@@ -85,7 +84,9 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextRoom"
         android:layout_centerHorizontal="true"
-        android:text="Add Room" />
+        android:text="@string/Room" />
+
+    <!--    Add Slots-->
 
     <EditText
         android:id="@+id/editTextSlot"
@@ -94,7 +95,7 @@
         android:layout_centerHorizontal="true"
         android:layout_below="@id/buttonAddCourses"
         android:ems="10"
-        android:hint="Enter Slot name"
+        android:hint="@string/TextSlot"
         android:inputType="text" />
 
     <Button
@@ -103,5 +104,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextSlot"
         android:layout_centerHorizontal="true"
-        android:text="Add Slot" />
+        android:text="@string/Slot" />
 </RelativeLayout>
