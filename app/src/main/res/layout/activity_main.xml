@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!--    Add Teachers-->
 
     <Button
         android:id="@+id/buttonAddTeachers"
@@ -14,28 +13,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="60dp"
         android:layout_marginRight="100dp"
         android:layout_marginBottom="100dp"
         android:text="@string/Teacher" />
-
-    <!--    Add Courses-->
-
-    <EditText
-        android:id="@+id/editTextCourse"
-        android:layout_width="192dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="141dp"
-        android:layout_marginEnd="109dp"
-        android:layout_marginRight="100dp"
-        android:layout_marginBottom="100dp"
-        android:ems="10"
-        android:hint="@string/TextCourse"
-        android:inputType="text" />
 
 
     <Button
@@ -43,49 +24,50 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginTop="149dp"
         android:layout_marginRight="100dp"
+        android:layout_marginBottom="534dp"
         android:text="@string/Course" />
-
-    <!--    Add Rooms-->
-
-    <EditText
-        android:id="@+id/editTextRoom"
-        android:layout_width="192dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/buttonAddSlot"
-        android:ems="10"
-        android:hint="@string/TextRoom"
-        android:inputType="" />
-
 
     <Button
         android:id="@+id/buttonAddRoom"
-        android:layout_width="wrap_content"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextRoom"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginBottom="443dp"
         android:text="@string/Room" />
-
-    <!--    Add Slots-->
-
-    <EditText
-        android:id="@+id/editTextSlot"
-        android:layout_width="192dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/buttonAddCourses"
-        android:ems="10"
-        android:hint="@string/TextSlot"
-        android:inputType="text" />
 
     <Button
         android:id="@+id/buttonAddSlot"
-        android:layout_width="wrap_content"
+        android:layout_width="193dp"
         android:layout_height="wrap_content"
-        android:layout_below="@id/editTextSlot"
-        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="359dp"
         android:text="@string/Slot" />
+
+    <Button
+        android:id="@+id/buttonAddSemester"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="263dp"
+        android:text="@string/Semester" />
 </RelativeLayout>

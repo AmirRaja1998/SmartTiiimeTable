@@ -4,9 +4,7 @@
     <string name="Course">Add Course</string>
     <string name="Room">Add Room</string>
     <string name="Slot">Add Slot</string>
-    <string name="TextTeacher">Enter Teacher Name</string>
-    <string name="TextCourse">Enter Course Name</string>
-    <string name="TextSlot">Enter Slot Name</string>
-    <string name="TextRoom">Enter Room Name</string>
+    <string name="Semester">Add Semester</string>
+
 
 </resources>

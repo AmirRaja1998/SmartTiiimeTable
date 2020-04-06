@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activities.RegisterTeacher"></activity>
+        <activity android:name=".activities.RegisterCourse"></activity>
+        <activity android:name=".activities.RegisterRoom"></activity>
+        <activity android:name=".activities.RegisterSlot"></activity>
+        <activity android:name=".activities.RegisterSemester"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
