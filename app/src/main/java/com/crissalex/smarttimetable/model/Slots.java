@@ -3,7 +3,7 @@ package com.crissalex.smarttimetable.model;
 public class Slots {
     String Slotid;
     String Slotname;
-    public Slots(){
+    public Slots(String string, String s, String s1){
     }
     public Slots(String Slotid , String Slotname){
 

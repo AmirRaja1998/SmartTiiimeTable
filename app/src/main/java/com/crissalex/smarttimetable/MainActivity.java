@@ -2,8 +2,6 @@ package com.crissalex.smarttimetable;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
@@ -19,8 +17,6 @@ import com.crissalex.smarttimetable.model.Rooms;
 import com.crissalex.smarttimetable.model.Semesters;
 import com.crissalex.smarttimetable.model.Slots;
 import com.crissalex.smarttimetable.model.Teacher;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
-import com.firebase.ui.database.FirebaseRecyclerOptions;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
@@ -36,9 +32,6 @@ public class MainActivity extends AppCompatActivity {
     DatabaseReference databaseSlots;
     DatabaseReference databaseSemesters;
 
-    private FirebaseRecyclerOptions<ReadTeacher> options;
-    private FirebaseRecyclerAdapter<ReadTeacher,MyViewHolder> adapter;
-    private RecyclerView recyclerView;
 
 
     @Override
@@ -51,12 +44,6 @@ public class MainActivity extends AppCompatActivity {
         databaseRooms = FirebaseDatabase.getInstance().getReference("rooms");
         databaseSlots = FirebaseDatabase.getInstance().getReference("slots");
         databaseSlots = FirebaseDatabase.getInstance().getReference("Semester");
-
-//        recyclerview //
-        recyclerView=findViewById(R.id.recyclerView);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
 
         buttonAdd = (Button) findViewById(R.id.buttonAddTeachers);
         buttonAdd.setOnClickListener(new View.OnClickListener() {
@@ -135,12 +122,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "You Should enter a name", Toast.LENGTH_LONG).show();
         }
     }
-
-//    Recycler view adopter //
-
-    BitmapFactory.Options=new FirebaseRecyclerOptions.Builder<ReadTeacher>().setQuery()(ref,ReadTeacher.class).build();
-    adapter = new FirebaseRecyclerAdapter<ReadTeacher, MyViewHolder>()
-
 
 
     private void addCourses() {

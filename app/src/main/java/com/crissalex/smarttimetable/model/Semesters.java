@@ -3,7 +3,7 @@ package com.crissalex.smarttimetable.model;
 public class Semesters {
     String SemesterId;
     String Semestername;
-    public Semesters(){
+    public Semesters(String string, String s, String s1){
     }
     public Semesters(String SemesterId , String Semestername){
 

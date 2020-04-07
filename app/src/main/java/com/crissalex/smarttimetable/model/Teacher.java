@@ -3,7 +3,7 @@ package com.crissalex.smarttimetable.model;
 public class Teacher {
     String TeacherId;
     String Teachername;
-    public Teacher(){
+    public Teacher(String string, String s, String s1){
     }
     public Teacher(String TeacherId , String Teachername){
 

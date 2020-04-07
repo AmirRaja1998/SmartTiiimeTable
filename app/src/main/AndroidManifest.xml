@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.RegisterTeacher"></activity>
-        <activity android:name=".activities.RegisterCourse"></activity>
-        <activity android:name=".activities.RegisterRoom"></activity>
-        <activity android:name=".activities.RegisterSlot"></activity>
-        <activity android:name=".activities.RegisterSemester"></activity>
+        <activity android:name=".RegisterTeacher"></activity>
+        <activity android:name=".RegisterCourse"></activity>
+        <activity android:name=".RegisterRoom"></activity>
+        <activity android:name=".RegisterSlot"></activity>
+        <activity android:name=".RegisterSemester"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

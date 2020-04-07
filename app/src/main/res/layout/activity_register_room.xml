@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.RegisterRoom">
+    tools:context=".RegisterRoom">
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -15,7 +15,7 @@
 
 
         <EditText
-            android:id="@+id/Course_id"
+            android:id="@+id/room_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -23,7 +23,7 @@
             android:inputType="number" />
 
         <EditText
-            android:id="@+id/Course_name"
+            android:id="@+id/room_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
@@ -33,7 +33,7 @@
             android:inputType="textPersonName" />
 
         <Button
-            android:id="@+id/register_course"
+            android:id="@+id/register_room"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="100dp"
